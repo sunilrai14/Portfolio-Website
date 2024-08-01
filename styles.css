@@ -396,6 +396,14 @@ span {
         padding: 10rem 3% 2rem;
     }
 
+    .services {
+        padding-bottom: 7rem;
+    }
+
+    .portfolio {
+        padding-bottom: 7rem;
+    }
+
     .footer {
         padding: 2rem 3%;
     }
@@ -409,14 +417,13 @@ span {
 
         .navbar {
             position: absolute;
-            top: 100%;
+            top: 10%;
             left: 0;
             width: 100%;
             padding: 1rem 3%;
             background: var(--bg-color);
             border-top: .1rem solid rgba(0,0,0,.2);     
             box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
-            display:none;    
         }
 
         .navbar .active {
@@ -445,5 +452,22 @@ span {
                 width: 70vw;
                 margin-top: 4rem;
         }
+        .about {
+                flex-direction: column-reverse;
+        }
+        .about img {
+            width: 70vw;
+            margin-top: 4rem;
+        }
+        .services h2 {
+            margin-bottom: 3rem;
+        }
+        .portfolio h2 {
+            margin-bottom: 3rem;
+        }
+        .portfolio-container {
+            grid-template-columns: repeat(2,1fr);
+        }
+
 
 }
